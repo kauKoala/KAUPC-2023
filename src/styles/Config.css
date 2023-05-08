@@ -1,0 +1,79 @@
+@font-face{
+    font-family: 'Pretendard-Regular';
+    src: url('~/public/fonts/Pretendard-Regular.woff');
+  }
+  
+  html {
+    line-height: 1.15; /* 1 */
+    -webkit-text-size-adjust: 100%; /* 2 */
+    -webkit-tap-highlight-color: transparent; /* 3*/
+    font-family: 'Pretendard-Regular', sans-serif;
+    font-size:10px; /* for 1rem to 10px*/
+  }
+  body,
+  p,
+  table,
+  blockquote,
+  address,
+  pre,
+  iframe,
+  form,
+  figure,
+  dl {
+    margin: 0;
+  }
+  
+  a {
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  svg,
+  img,
+  embed,
+  object,
+  iframe {
+    vertical-align: bottom;
+  }
+  
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    -webkit-appearance: none; /* 1 */
+    appearance: none;
+    vertical-align: middle;
+    color: inherit;
+    font: inherit;
+    background: transparent;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    text-align: inherit;
+    text-transform: inherit; /* 2 */
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+  }
+  
+  ul,
+  ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    height: 100vh;
+  }
+  
+  #__next{
+    width:100%;
+    height:100%;
+  }
