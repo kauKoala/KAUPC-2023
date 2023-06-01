@@ -89,11 +89,17 @@ export default function Home() {
       </Background>
       <Wrapper flex={'columnCenter'}>
         <TitleSection />
-        <Divder />
+        <div id="info">
+          <Divder />
+        </div>
         <InfoSection />
-        <Divder />
+        <div id="rule">
+          <Divder />
+        </div>
         <RuleSection />
-        <Divder />
+        <div id="apply">
+          <Divder />
+        </div>
         <ApplySection />
       </Wrapper>
     </>
