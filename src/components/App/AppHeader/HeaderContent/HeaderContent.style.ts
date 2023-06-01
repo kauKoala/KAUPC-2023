@@ -1,3 +1,4 @@
+import { Flex } from "@/components/UI/FlexBox";
 import styled from "@emotion/styled";
 
 export const Root = styled.div`
@@ -10,3 +11,8 @@ export const Root = styled.div`
     display: none;
   }
 `
+
+export const Wrapper = styled(Flex)`
+  width: 100%;
+  height: 100%;
+`;
