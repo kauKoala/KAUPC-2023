@@ -17,24 +17,30 @@ export const Wrapper = styled(Flex)`
   height: auto;
   border-radius: 8px;
   padding: 0.0rem 0.0rem 1.0rem 2.0rem;
+  margin: 0.5rem 1.0rem 0.5rem 1.0rem;
+  border-width: 0;
 
-  @media screen and (max-width: ${SMALL_WIDTH}) {
-    padding: 16px 24px;
-  }
-
+  
   li {
     line-height: 200%;
-    font-size: 24px;
-    width: 90%;
+    font-size: 1.75rem;
+    width: 100%;
   }
-
+  
   svg {
-
+    
   }
-
+  
   h2 {
-
+    
   }
+  
+  @media screen and (max-width: ${SMALL_WIDTH}) {
+    padding: 1.0rem 2.0rem;
 
+    li {
+      font-size: 1.6rem;
+    }
+  }
 
 `;
