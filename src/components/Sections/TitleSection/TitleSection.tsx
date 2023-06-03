@@ -3,6 +3,10 @@ import * as S from './TitleSection.style'
 import ListContainer from "@/components/UI/ListContainer/ListContainer";
 import SubTitle from "@/components/UI/SubTitle/SubTitle";
 import { MdOutlineMonitor } from "react-icons/md";
+import { LinkBox } from "@/components/UI/LinkBox/LinkBox";
+import { SiNaver } from "react-icons/si";
+import { RiKakaoTalkFill } from "react-icons/ri";
+import { FcGoogle } from "react-icons/fc";
 
 export const TitleSection = () => {
     return(
@@ -29,8 +33,14 @@ export const TitleSection = () => {
                     <SubTitle title="참가 신청">
                         
                     </SubTitle>
-                    <p>오픈채팅방</p>
-                    <p>네이버 폼</p>
+                    <LinkBox>
+                        <RiKakaoTalkFill />
+                        <p>오픈채팅방</p>
+                    </LinkBox>
+                    <LinkBox>
+                        <FcGoogle />
+                        <p>구글 폼</p>
+                    </LinkBox>
                 </ListContainer>
             </S.SmallBoxWrapper>
         </S.Root>
