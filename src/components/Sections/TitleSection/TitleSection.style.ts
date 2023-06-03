@@ -5,9 +5,9 @@ import styled from "@emotion/styled";
 export const Root = styled(Flex)`
     width: 100%;
     height: 100%;
-    padding-top: 2.0rem;
-
-    h1{
+    padding-top: 4.0rem;
+    
+    h1 {
         font-size: 5.5rem;
     };
 
@@ -21,6 +21,7 @@ export const SmallBoxWrapper = styled.div`
     width: 93%;
     display: flex;
     flex-direction: row;
+    padding-top: 2.0rem;
 
     h2 {
         color: black;

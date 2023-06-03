@@ -15,13 +15,19 @@ export const Root = styled.div`
 export const Wrapper = styled(Flex)`
   width: 100%;
   height: 100%;
+  display: flex;
+  /* justify-content: space-between; */
+
+  h1 {
+    padding-right: 1.0rem;
+  }
 
   div{
-    width:55%;
+    margin-left: auto;
   }
 
   a {
     font-size: 1.75rem;
-    padding: 0rem 0rem 0rem 1.0rem;
+    padding: 0rem 2.0rem 0rem 1.0rem;
   }
 `;
