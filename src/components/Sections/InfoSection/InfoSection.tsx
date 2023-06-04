@@ -16,15 +16,15 @@ export const InfoSection = () => {
           
           </MainTitle>
           <div className="container">
-            <SubTitle title='대회 진행'>
-              <MdOutlineMonitor />
+            <SubTitle title='🏫 대회 방식'>
+              {/* <MdOutlineMonitor /> */}
             </SubTitle>
             <li>본 대회는 3인 1팀으로 진행되면, 약 3시간동안 주어진 프로그래밍 문제를 해결하는 대회입니다.</li>
             <li>인터넷 검색을 이용하거나 미리 준비하는 코드를 사용해도 됩니다. 다만 구글링으로 가져온 코드는 반드시 주석으로 출처를 표기해야 합니다.</li>
             <li>대회 과정은 오프라인으로 진행되며, 진행 관련 문의는 대회 운영 카카오톡 오픈채팅방을 통해 건의할 수 있습니다.</li>
             <li>사용 가능 언어는 C, C++, Java, Python 3, PyPy3 으로 제한되며, 이외의 언어로는 참여가 어려울 수 있습니다.</li>
-            <SubTitle title='유의사항'>
-              <RiErrorWarningLine />
+            <SubTitle title='📣 유의사항'>
+              {/* <RiErrorWarningLine /> */}
             </SubTitle>
             <li>대회가 종료된 후 소스코드 표절검사가 진행되며, 표절이 발견된 경우 관련 팀들은 실격됩니다.</li>
             <li>팀원이 아닌 사람과 문제에 대해 어떤 형태로든 커뮤니케이션 하는 것은 부정행위로 간주됩니다.</li>

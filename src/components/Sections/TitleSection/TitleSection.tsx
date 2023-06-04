@@ -23,13 +23,13 @@ export const TitleSection = () => {
                 </ListContainer>
                 <div className="mobile"/>
                 <ListContainer>
-                    <SubTitle title="✅참가 자격">
+                    <SubTitle title="✅ 참가 자격">
                     </SubTitle>
                     <p>2023년도 2학기 한국항공대학교에 재학중인 모든 학부생 (전공 무관, 대학원생 참가 불가)</p>
                 </ListContainer>
                 <div className="mobile"/>
                 <ListContainer>
-                    <SubTitle title="👨🏻‍💻참가 신청">
+                    <SubTitle title="👨🏻‍💻 참가 신청">
                     </SubTitle>
                     <LinkBox>
                         <RiKakaoTalkFill />

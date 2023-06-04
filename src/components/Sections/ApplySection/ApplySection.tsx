@@ -9,11 +9,11 @@ export const ApplySection = () => {
         <>
         <S.Root>   
             <ListContainer>
-                <MainTitle title={"📢 대회 접수"} description="">
+                <MainTitle title={"🏆 대회 접수"} description="">
 
                 </MainTitle>
                 <div className="container">
-                    <SubTitle title="참가자 유의사항">
+                    <SubTitle title="🚨 참가자 유의사항">
                     </SubTitle>
                     <li>본 대회는 대학원생의 참여가 불가능하며, 한국항공대학교 학부 재학 & 휴학생 신분으로 제한됩니다.</li>
                     <li>대회 상위 3~4팀은 경인지역 연합 프로그래밍 경시대회 Shake! 본선 진출의 기회가 주어집니다.</li>
