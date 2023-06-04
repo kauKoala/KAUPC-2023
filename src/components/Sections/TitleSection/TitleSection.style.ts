@@ -34,6 +34,11 @@ export const SmallBoxWrapper = styled.div`
     p {
         font-size: 1.5rem;
     }
+
+    .iconContainer {
+        font-size: 2.0rem;
+        padding: 1.0rem 0.5rem 0 0;
+    }
     
 
     @media screen and (max-width: 800px) {

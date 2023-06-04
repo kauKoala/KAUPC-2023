@@ -2,12 +2,16 @@ import React from "react";
 import * as S from './ApplySection.style';
 import ListContainer from "@/components/UI/ListContainer/ListContainer";
 import SubTitle from "@/components/UI/SubTitle/SubTitle";
+import MainTitle from "@/components/UI/MainTitle/MainTitle";
 
 export const ApplySection = () => {
     return(
         <>
         <S.Root>   
             <ListContainer>
+                <MainTitle title={"📢 대회 접수"} description="">
+
+                </MainTitle>
                 <div className="container">
                     <SubTitle title="참가자 유의사항">
                     </SubTitle>

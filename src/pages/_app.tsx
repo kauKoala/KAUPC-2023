@@ -7,7 +7,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
     return(
         <>
             <Head>
-                <link rel='icon' href="@/favicon.ico" />
+                <link rel='icon' href="@/icons/favicon.ico" />
                 <title>2023 한국항공대학교 프로그래밍 경진대회</title>
                 <meta name="title" property="og:title" content="제3회 한국항공대학교 프로그래밍 경진대회" />
                 <meta

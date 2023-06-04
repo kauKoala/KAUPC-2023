@@ -4,11 +4,15 @@ import React from "react"
 import { AiOutlineCalendar, AiOutlineTrophy } from "react-icons/ai";
 import ListContainer from '@/components/UI/ListContainer/ListContainer';
 import SubTitle from "@/components/UI/SubTitle/SubTitle";
+import MainTitle from '@/components/UI/MainTitle/MainTitle';
 
 export const RuleSection = () => {
     return(
         <S.Root>
             <ListContainer>
+                <MainTitle title={"📢 대회 안내"} description={"※모든 대회는 비대면 온라인 환경에서 진행되며, 대회 일시는 주최측 사정에 의해 변경될 수 있습니다."}>
+
+                </MainTitle>
                 <div className='container'>
                     <SubTitle title='대회 일정'>
                         <AiOutlineCalendar />

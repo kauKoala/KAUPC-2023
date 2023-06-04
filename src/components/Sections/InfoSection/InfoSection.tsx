@@ -5,12 +5,16 @@ import ListContainer from '@/components/UI/ListContainer/ListContainer';
 import SubTitle from "@/components/UI/SubTitle/SubTitle";
 import LottieContainer from '@/components/UI/LottieContainer/LottieContainer';
 import * as S from "./InfoSection.style";
+import MainTitle from "@/components/UI/MainTitle/MainTitle";
 
 
 export const InfoSection = () => {
     return(
       <S.Root>
         <ListContainer>
+          <MainTitle title={"📖 대회 규정"} description={"※ 대회 운영 및 평가와 관련된 안내입니다. 접수 전 꼭 읽어주세요!"}>
+          
+          </MainTitle>
           <div className="container">
             <SubTitle title='대회 진행'>
               <MdOutlineMonitor />
