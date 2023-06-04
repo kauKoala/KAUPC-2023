@@ -18,8 +18,10 @@ export const TitleSection = () => {
                 <ListContainer>
                     <SubTitle title="⏰ 대회 일시">
                     </SubTitle>
-                    <p>접수 마감 : 7월 25일 (화) 자정</p>
-                    <p>대회일 : 7월 29일 (토) / 14:00 ~ 17:00</p>
+                    <div className="titleSection">
+                        <p>접수 마감 : 7월 25일 (화) 자정</p>
+                        <p>대회일 : 7월 29일 (토) / 14:00 ~ 17:00</p>
+                    </div>
                 </ListContainer>
                 <div className="mobile"/>
                 <ListContainer>

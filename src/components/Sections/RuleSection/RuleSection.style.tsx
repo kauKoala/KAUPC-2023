@@ -1,3 +1,4 @@
+import { SMALL_WIDTH } from "@/styles/layouts";
 import styled from "@emotion/styled";
 
 export const Root = styled.div`
@@ -23,5 +24,11 @@ export const Root = styled.div`
 
     .container {
       flex-grow: 1;
+    }
+
+    @media screen and (max-width: ${SMALL_WIDTH}) {
+      img {
+        display: none;
+      }
     }
 `;

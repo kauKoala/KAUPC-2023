@@ -39,6 +39,16 @@ export const SmallBoxWrapper = styled.div`
         font-size: 2.0rem;
         padding: 1.0rem 0.5rem 0 0;
     }
+
+    /* .titleSection {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        p{
+            line-height: 140%;
+        }
+    } */
     
 
     @media screen and (max-width: 800px) {
