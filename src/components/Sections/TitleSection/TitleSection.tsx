@@ -18,14 +18,14 @@ export const TitleSection = () => {
                 <ListContainer>
                     <SubTitle title="⏰ 대회 일시">
                     </SubTitle>
-                    <p>접수 마감 : 11월 3일 (수) 자정</p>
-                    <p>대회일 : 11월 6일 (토) / 14:00 ~ 17:00</p>
+                    <p>접수 마감 : 7월 25일 (화) 자정</p>
+                    <p>대회일 : 7월 29일 (토) / 14:00 ~ 17:00</p>
                 </ListContainer>
                 <div className="mobile"/>
                 <ListContainer>
                     <SubTitle title="✅ 참가 자격">
                     </SubTitle>
-                    <p>2023년도 2학기 한국항공대학교에 재학중인 모든 학부생 (전공 무관, 대학원생 참가 불가)</p>
+                    <p>2023년도 2학기 한국항공대학교에 재학중인 모든 학부생 (전공 무관, 휴학생과 대학원생 참가 불가)</p>
                 </ListContainer>
                 <div className="mobile"/>
                 <ListContainer>
