@@ -9,25 +9,19 @@ export const Root = styled.div`
       color: gray;
     }
 
-    svg {
-      
+    img {
+      width: 17.5rem;
+      height: 17.5rem;
     }
-`;
 
-export const Background = styled.div`
-  opacity: 0.32 !important;
-  border-radius: 16px;
-  display: flex;
-  justify-content: flex-end;
-  overflow: hidden;
-  display: inline-block;
-  text-align: right;
-  
-  svg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    height: 100% !important;
-    width: 100%
-  }
+    .koalaContainer {
+      width: 100%;
+      display: flex;
+      /* justify-content: space-between; */
+      align-items: flex-end;
+    }
+
+    .container {
+      flex-grow: 1;
+    }
 `;

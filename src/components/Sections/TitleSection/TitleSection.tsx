@@ -13,7 +13,7 @@ export const TitleSection = () => {
     return(
         <S.Root flex={"columnCenter"}>
             <h1>KAUPC 2023</h1>
-            <h3>제 3회 한국항공대학교 프로그래밍 경진대회</h3>
+            <h3>제 3회 한국항공대학교 프로그래밍 경진대회</h3> 
             <S.SmallBoxWrapper>
                 <ListContainer>
                     <SubTitle title="⏰ 대회 일시">
