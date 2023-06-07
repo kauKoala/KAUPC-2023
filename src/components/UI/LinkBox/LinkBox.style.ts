@@ -11,7 +11,13 @@ export const Root = styled.div`
     border-radius: 1.0rem 1.0rem 1.0rem 1.0rem;
 
     svg {
-        font-size: 2.0rem;
+        font-size: 1.8rem;
         padding: 0 1.0rem 0 1.0rem;
+    }
+
+    a {
+        padding-top: 0.25rem;
+        display: flex;
+        color: black;
     }
 `;

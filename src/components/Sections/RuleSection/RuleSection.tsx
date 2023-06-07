@@ -29,7 +29,7 @@ export const RuleSection = () => {
                         <li>우수상 (4팀): 상금 10만원</li>
                         <li>특별상: 베스킨라빈스 싱글 기프티콘</li>
                     </div>
-                    <img src='icons/koala.svg' />
+                    {/* <img src='icons/koala.svg' /> */}
                 </div>
             </ListContainer>
         </S.Root>

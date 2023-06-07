@@ -15,6 +15,23 @@ export const Root = styled(Flex)`
         font-size: 3.5rem;
     };
 
+    /* .mainTitleText {
+        display: flex;
+
+        @media screen and (max-width: 600px){
+            flex-direction: column;
+        }
+    };
+
+    .mainTitle {
+        display: flex;
+        flex-direction: column;
+
+        @media screen and (max-width: 600px){
+            justify-content: flex-start;
+        }
+    } */
+
 `;
 
 export const SmallBoxWrapper = styled.div`

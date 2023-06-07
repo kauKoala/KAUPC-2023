@@ -12,8 +12,16 @@ import { BsFillCheckSquareFill } from "react-icons/bs"
 export const TitleSection = () => {
     return(
         <S.Root flex={"columnCenter"}>
+            {/* <div className="mainTitle">
+                <div className="mainTitleText">
+                    <h1>KAUPC</h1><h1>2023</h1>
+                </div>
+                <div className="mainTitleText">
+                    <h3>제 3회 한국항공대학교</h3><h3>프로그래밍 경진대회</h3> 
+                </div>
+            </div> */}
             <h1>KAUPC 2023</h1>
-            <h3>제 3회 한국항공대학교 프로그래밍 경진대회</h3> 
+            <h3>제 3회 한국항공대학교 프로그래밍 경진대회</h3>
             <S.SmallBoxWrapper>
                 <ListContainer>
                     <SubTitle title="⏰ 대회 일시">
@@ -33,11 +41,11 @@ export const TitleSection = () => {
                 <ListContainer>
                     <SubTitle title="👨🏻‍💻 참가 신청">
                     </SubTitle>
-                    <LinkBox>
+                    <LinkBox link={'https://www.naver.com'}>
                         <RiKakaoTalkFill />
                         <p>카카오톡 오픈채팅방</p>
                     </LinkBox>
-                    <LinkBox>
+                    <LinkBox link={'https://www.google.com'}>
                         <FcGoogle />
                         <p>참가 접수 구글 폼 링크</p>
                     </LinkBox>
