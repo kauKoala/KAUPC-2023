@@ -25,11 +25,11 @@ export const Layout = ({ children }: LayoutProps) => {
 };
 
 const Root = styled.div`
-  height: 300%;
+  height: max;
 
   & {
     background: linear-gradient(192deg, #E2E2E2, #D3D3D3);
-    background-size: 400% 400%;
+    background-size: 100% 100%;
     -webkit-animation: animateBackground 5s ease infinite;
     -moz-animation: animateBackground 5s ease infinite;
     animation: animateBackground 5s ease infinite;

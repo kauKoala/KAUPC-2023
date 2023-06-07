@@ -14,52 +14,6 @@ import { Divder } from '@/components/UI/Divider/Divder';
 export const Wrapper = styled(Flex)`
   width: 100%;
   height: 100%;
-
-  /* 리본 CSS */
-.container {
-  width: 100%;
-  --d: 6px; /* folded part */
-  --c: rgb(31, 31, 141); /* color */
-  --f: 24px; /* ribbon font-size */
-  position: relative;
-}
-.container::before {
-  content: attr(data-ribbon);
-  font-size: var(--f);
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: translate(29.29%, -100%) rotate(45deg);
-  transform-origin: bottom left;
-  padding: 5px 35px calc(var(--d) + 5px);
-  background: linear-gradient(rgba(0, 0, 0, 0.5) 0 0) bottom/100% var(--d)
-    no-repeat var(--c);
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    100% 100%,
-    calc(100% - var(--d)) calc(100% - var(--d)),
-    var(--d) calc(100% - var(--d)),
-    0 100%
-  );
-  -webkit-mask: linear-gradient(
-        135deg,
-        transparent calc(50% - var(--d) * 0.707),
-        #fff 0
-      )
-      bottom left,
-    linear-gradient(-135deg, transparent calc(50% - var(--d) * 0.707), #fff 0)
-      bottom right;
-  -webkit-mask-size: 300vmax 300vmax;
-  -webkit-mask-composite: destination-in;
-  mask-composite: intersect;
-};
-
-@media screen and (max-width: 800px) {
-  .container::before {
-    content: none;
-  }
-}
 `;
 
 export const Background = styled.div`
@@ -89,12 +43,19 @@ export default function Home() {
       </Background>
       <Wrapper flex={'columnCenter'}>
         <TitleSection />
-        <Divder />
-        <InfoSection />
-        <Divder />
+        <div id="rule">
+          <Divder />
+        </div>
         <RuleSection />
-        <Divder />
+        <div id="info">
+          <Divder />
+        </div>
+        <InfoSection />
+        <div id="apply">
+          <Divder />
+        </div>
         <ApplySection />
+        <Divder />
       </Wrapper>
     </>
   );

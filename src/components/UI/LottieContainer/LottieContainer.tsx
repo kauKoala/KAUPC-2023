@@ -8,11 +8,11 @@ export type LottieContainerProps = {
 }
 
 export const LottieContainer = ({ path }: LottieContainerProps) => {
-  const lottieContainer = useRef();
+  const lottieContainer = useRef<HTMLDivElement>(null);
 
     useEffect(() => {
         Lottie.loadAnimation({
-        container: lottieContainer.current,
+        container: lottieContainer.current as HTMLDivElement,
         renderer: "svg",
         loop: true,
         autoplay: true,
@@ -22,7 +22,11 @@ export const LottieContainer = ({ path }: LottieContainerProps) => {
         return () => Lottie.destroy();
     }, []);
 
-  return <S.Root ref={lottieContainer} />
+  return(
+    <>
+      <S.Root ref={lottieContainer} />
+    </>
+  )
 }
 
 export default LottieContainer;
