@@ -55,6 +55,7 @@ export default function Home() {
           <Divder />
         </div>
         <ApplySection />
+        <Divder />
       </Wrapper>
     </>
   );
