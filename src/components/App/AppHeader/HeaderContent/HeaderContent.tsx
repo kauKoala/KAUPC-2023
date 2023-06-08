@@ -8,8 +8,8 @@ export const HeaderContent = () => {
             <S.Wrapper flex="rowStart">
                 <h1>제 3회  한국항공대학교 프로그래밍 경진대회</h1>
                 <div>
-                    <a href="#info">대회 규칙</a>
                     <a href="#rule">대회 정보</a>
+                    <a href="#info">대회 규칙</a>
                     <a href="#apply">유의 사항</a>
                 </div>
             </S.Wrapper> 
