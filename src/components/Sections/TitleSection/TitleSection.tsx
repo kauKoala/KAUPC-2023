@@ -20,7 +20,7 @@ export const TitleSection = () => {
                     <h3>제 3회 한국항공대학교</h3><h3>프로그래밍 경진대회</h3> 
                 </div>
             </div> */}
-            <S.MainTitle>
+            <S.MainTitle flex={"columnCenter"}>
                 <h1>KAUPC 2023</h1>
                 <h3>제 3회 한국항공대학교 프로그래밍 경진대회</h3>
             </S.MainTitle>

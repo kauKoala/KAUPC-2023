@@ -2,14 +2,24 @@ import { Flex } from "@/components/UI/FlexBox";
 import { SMALL_WIDTH } from "@/styles/layouts";
 import styled from "@emotion/styled";
 
-export const MainTitle = styled.div`
+export const MainTitle = styled(Flex)`
     width: 90%;
+
     h1{
-        font-size: 6.5rem;
+        font-size: 5.5rem;
     }
     h3{
         padding-top: 1.0rem;
         font-size: 3.5rem;
+    }
+
+    @media screen and (max-width: 800px) {
+        h1 {
+            font-size: 4.0rem;
+        }
+        h3 {
+            font-size: 2.0rem;
+        }
     }
 `;
 
@@ -46,18 +56,7 @@ export const SmallBoxWrapper = styled.div`
     .iconContainer {
         font-size: 2.0rem;
         padding: 1.0rem 0.5rem 0 0;
-    }
-
-    /* .titleSection {
-        height: 100%;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        p{
-            line-height: 140%;
-        }
-    } */
-    
+    }    
 
     @media screen and (max-width: 800px) {
         width: 100%;
