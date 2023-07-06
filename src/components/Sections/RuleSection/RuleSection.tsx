@@ -17,9 +17,9 @@ export const RuleSection = () => {
                     <div className='container'>
                         <SubTitle title='📆 대회 일정'>
                         </SubTitle>
-                        <li>접수 마감: 2023년 9월 14일 (수요일) 18:00</li>
-                        <li>대회 진행: 2023년 9월 17일 (토요일) 14:00 ~ 17:00</li>
-                        <li>대회 장소: 과학실 4층 전산실</li>
+                        <li>접수 마감: 2023년 7월 25일 (화요일) 18:00</li>
+                        <li>접수 가능 인원: 최대 80명으로 선착순 마감</li>
+                        <li>대회 장소: 과학실 1층 강의실</li>
                         <li>스코어보드 발표: 대회 종료 직후 공개</li>
                         <SubTitle title='🏅 대회 경품'>
                         </SubTitle>
