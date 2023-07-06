@@ -2,36 +2,27 @@ import { Flex } from "@/components/UI/FlexBox";
 import { SMALL_WIDTH } from "@/styles/layouts";
 import styled from "@emotion/styled";
 
+export const MainTitle = styled.div`
+    width: 90%;
+    h1{
+        font-size: 6.5rem;
+    }
+    h3{
+        padding-top: 1.0rem;
+        font-size: 3.5rem;
+    }
+`;
+
 export const Root = styled(Flex)`
     width: 100%;
     height: 100%;
     padding-top: 4.0rem;
-    
-    h1 {
-        font-size: 5.5rem;
-    };
 
-    h3 {
-        font-size: 3.5rem;
-    };
-
-    /* .mainTitleText {
-        display: flex;
-
-        @media screen and (max-width: 600px){
-            flex-direction: column;
-        }
-    };
-
-    .mainTitle {
-        display: flex;
+    @media screen and (max-width: 800px) {
+        width: 100%;
         flex-direction: column;
-
-        @media screen and (max-width: 600px){
-            justify-content: flex-start;
-        }
-    } */
-
+        padding-top: 2.0rem;
+    }
 `;
 
 export const SmallBoxWrapper = styled.div`

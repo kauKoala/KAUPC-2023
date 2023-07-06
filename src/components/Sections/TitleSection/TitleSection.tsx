@@ -20,14 +20,16 @@ export const TitleSection = () => {
                     <h3>제 3회 한국항공대학교</h3><h3>프로그래밍 경진대회</h3> 
                 </div>
             </div> */}
-            <h1>KAUPC 2023</h1>
-            <h3>제 3회 한국항공대학교 프로그래밍 경진대회</h3>
+            <S.MainTitle>
+                <h1>KAUPC 2023</h1>
+                <h3>제 3회 한국항공대학교 프로그래밍 경진대회</h3>
+            </S.MainTitle>
             <S.SmallBoxWrapper>
                 <ListContainer>
                     <SubTitle title="⏰ 대회 일시">
                     </SubTitle>
                     <div className="titleSection">
-                        <p>접수 마감 : 7월 25일 (화) 자정</p>
+                        <p>접수 마감 : 7월 25일 (화) 18:00</p>
                         <p>대회일 : 7월 29일 (토) / 14:00 ~ 17:00</p>
                     </div>
                 </ListContainer>
