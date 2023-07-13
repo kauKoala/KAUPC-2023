@@ -18,7 +18,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
                 <meta
                 name="image"
                 property="og:image"
-                content="public\icons\kaupc_preview.png"
+                content="https://github.com/kauKoala/KAUPC-2023/assets/106497893/96715c63-fba4-472c-bb93-5d8d9c939c85"
                 />
             </Head>
             <Layout>
