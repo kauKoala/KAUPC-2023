@@ -10,6 +10,7 @@ import { TitleSection } from '@/components/Sections/TitleSection/TitleSection';
 import { Flex } from '@/components/UI/FlexBox';
 import { ApplySection } from '@/components/Sections/ApplySection/ApplySection';
 import { Divder } from '@/components/UI/Divider/Divder';
+import { SponsorSection } from '@/components/Sections/SponsorSection/SponsorSection';
 
 export const Wrapper = styled(Flex)`
   width: 100%;
@@ -43,6 +44,7 @@ export default function Home() {
       </Background>
       <Wrapper flex={'columnCenter'}>
         <TitleSection />
+        
         <div id="rule">
           <Divder />
         </div>
@@ -55,6 +57,8 @@ export default function Home() {
           <Divder />
         </div>
         <ApplySection />
+        <Divder />
+        <SponsorSection />
         <Divder />
       </Wrapper>
     </>

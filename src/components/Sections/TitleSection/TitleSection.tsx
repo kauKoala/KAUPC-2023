@@ -20,7 +20,7 @@ export const TitleSection = () => {
                     <h3>제 3회 한국항공대학교</h3><h3>프로그래밍 경진대회</h3> 
                 </div>
             </div> */}
-            <S.MainTitle>
+            <S.MainTitle flex={"columnCenter"}>
                 <h1>KAUPC 2023</h1>
                 <h3>제 3회 한국항공대학교 프로그래밍 경진대회</h3>
             </S.MainTitle>
@@ -30,7 +30,7 @@ export const TitleSection = () => {
                     </SubTitle>
                     <div className="titleSection">
                         <p>접수 마감 : 7월 25일 (화) 18:00</p>
-                        <p>대회일 : 7월 29일 (토) / 14:00 ~ 17:00</p>
+                        <p>대회일 : 7월 29일 (토) / 14:00 ~ 18:00</p>
                     </div>
                 </ListContainer>
                 <div className="mobile"/>
@@ -43,13 +43,13 @@ export const TitleSection = () => {
                 <ListContainer>
                     <SubTitle title="👨🏻‍💻 참가 신청">
                     </SubTitle>
-                    <LinkBox link={'https://www.naver.com'}>
+                    <LinkBox link={'https://open.kakao.com/o/srmgu6uf'}>
                         <RiKakaoTalkFill />
                         <p>카카오톡 오픈채팅방</p>
                     </LinkBox>
-                    <LinkBox link={'https://www.google.com'}>
-                        <FcGoogle />
-                        <p>참가 접수 구글 폼 링크</p>
+                    <LinkBox link={'https://scm.kau.ac.kr/'}>
+                        <img src="icons/kau-removebg-preview.png" width='25' />
+                        <p className="kaulink">역량관리시스템 바로가기</p>
                     </LinkBox>
                 </ListContainer>
             </S.SmallBoxWrapper>
