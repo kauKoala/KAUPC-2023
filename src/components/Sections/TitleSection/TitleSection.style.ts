@@ -53,6 +53,15 @@ export const SmallBoxWrapper = styled.div`
         font-size: 1.5rem;
     }
 
+    img {
+        width: 3.0rem;
+        padding: 0 0.3rem 0 0.3rem;
+    }
+
+    .kaulink {
+        padding-top: 0.5rem;
+    }
+
     .iconContainer {
         font-size: 2.0rem;
         padding: 1.0rem 0.5rem 0 0;

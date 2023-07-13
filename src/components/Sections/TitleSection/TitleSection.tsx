@@ -43,13 +43,13 @@ export const TitleSection = () => {
                 <ListContainer>
                     <SubTitle title="👨🏻‍💻 참가 신청">
                     </SubTitle>
-                    <LinkBox link={'https://www.naver.com'}>
+                    <LinkBox link={'https://open.kakao.com/o/srmgu6uf'}>
                         <RiKakaoTalkFill />
                         <p>카카오톡 오픈채팅방</p>
                     </LinkBox>
-                    <LinkBox link={'https://www.google.com'}>
-                        <FcGoogle />
-                        <p>참가 접수 구글 폼 링크</p>
+                    <LinkBox link={'https://scm.kau.ac.kr/'}>
+                        <img src="icons/kau-removebg-preview.png" width='25' />
+                        <p className="kaulink">역량관리시스템 바로가기</p>
                     </LinkBox>
                 </ListContainer>
             </S.SmallBoxWrapper>
