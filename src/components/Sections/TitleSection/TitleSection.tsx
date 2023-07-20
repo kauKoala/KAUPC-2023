@@ -47,7 +47,7 @@ export const TitleSection = () => {
                         <RiKakaoTalkFill />
                         <p>카카오톡 오픈채팅방</p>
                     </LinkBox>
-                    <LinkBox link={'https://scm.kau.ac.kr/'}>
+                    <LinkBox link={'https://scm.kau.ac.kr/ko/program/all/view/1114'}>
                         <img src="icons/kau-removebg-preview.png" width='25' />
                         <p className="kaulink">역량관리시스템 바로가기</p>
                     </LinkBox>

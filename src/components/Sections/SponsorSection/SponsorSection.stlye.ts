@@ -15,28 +15,19 @@ export const Root = styled.div`
         line-height: 140%;
     }
 
-    /* a {
-        postion: fixed;
-        z-index: 2;
-    } */
-
     .sponsorContainer {
         width: 100%;
         display: flex;
         justify-content: space-between; 
+
+        position: relative;
+        z-index: 2;
     }
 
     .sponsorBox {
         width: auto;
         padding: 0.0rem 2.0rem 0.0rem 2.0rem;
     }
-
-    /* .oner {
-        padding-left: 2.0rem;
-    }
-    .sponsor {
-        padding-right: 2.0rem;
-    } */
 
     .startlink-img {
         width: 140px;
